@@ -1,0 +1,122 @@
+.conteinerfooter{
+    width: 100%;
+    height: 298px;
+    background-color: #29292D;
+    display: flex;
+}
+.conteinerfooter a{
+    font: Ruda;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.04px;
+    color: #B3C0D2;
+    transition: .5s;
+}
+.conteinerfooter a:hover{
+    color: white;
+}
+.footerlogo{
+    width: 144px;
+    height: 144px;
+    margin-top: 85px;
+    margin-left: 200px;
+}
+.contact{
+    margin-top: 95px;
+    margin-left: 50px;
+}
+.contact a img{
+    width: 34.99px;
+    height: 35px;
+    margin-left: 20px;
+}
+.tell a{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 21.91px;
+}
+.tell a img{
+    height: 20px;
+    width: 19.9px;
+    left: 0.02px;
+}
+.footermenu{
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+}
+.footermenu a{
+    margin-top: 12px;
+}
+.searchBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.search {
+    position: relative;
+}
+
+.search input{
+    width: 254.93px;
+    height: 44px;
+    border: 0px solid;
+    padding: 0 10px;
+    background-color: #B3C0D233;
+    -webkit-border-top-left-radius: 25px;
+    -webkit-border-bottom-left-radius: 25px;
+    -moz-border-radius-topleft: 25px;
+    -moz-border-radius-bottomleft: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px
+}
+
+.search label{
+    height: 21.51px;
+    width: 53.99px;
+    color:#C4C4C4;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.searchicon{
+    position: absolute;
+    right: -95px;
+    top: 0;
+    height: 44px;
+    width: 94.97px;
+    background-color: #191919;
+    -webkit-border-top-right-radius: 25px;
+    -moz-border-radius-topright: 25px;
+    -moz-border-radius-bottomright: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    -webkit-border-bottom-right-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Basket {
+    width: 135%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.img1 {
+   object-fit: cover;
+   width:  54px;
+   height: 90px;
+}      
+.img2{
+    object-fit: cover;
+    width: 43.99px;
+    height: 44px;
+    margin-left: 20px;
+}

@@ -1,0 +1,78 @@
+.Delivery{
+    max-width: 1440px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.Deliveryh1{
+    display: flex;
+    font-size: 24px;
+}
+
+.Delivery hr{ 
+    width: auto;
+    
+}
+
+.delInfo{
+    display: flex;
+    font-size: 20px;
+}
+
+.CDEK h1{
+    display: flex;
+    font-size: 24px;
+}
+
+.CDEKh1{
+    margin-left: 15px;
+}
+
+.deliverCdek{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 15px;
+}
+
+.deliverCdek h1{
+    display: flex;
+}
+
+.deliverCdek img{
+    width: 300px;
+    height: 200px;
+}
+
+.CDEKul h1{
+    display: flex;
+    font-size: 24px;
+}
+
+.CDEKul li{
+    padding-bottom: 15px;
+}
+
+.ligrey{
+    font-size: 11px;
+    color: grey;
+}
+
+.posth1{
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.post h1{
+    font-size: 24px;
+}
+
+.BrieflyPost{
+    display: flex;
+    justify-content:space-between ;
+    line-height: 15px;
+}
+
+.Postul li{
+    padding-bottom: 15px;
+}

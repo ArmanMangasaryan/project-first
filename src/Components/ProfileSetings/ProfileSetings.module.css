@@ -1,0 +1,409 @@
+.profile h1 {
+    color: #002C6A;
+    display: flex;
+    font-size: 24px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 120px;
+}
+
+.profileGlobal {
+    display: flex;
+    margin-top: 20px;
+}
+
+.container {
+    line-height: 10px;
+}
+
+.address hr {
+    background-color: #002C6A;
+    height: 2px;
+}
+
+.address div {
+    line-height: 0px;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.address input {
+    width: 400px;
+}
+
+.address hr {
+    width: 400px;
+}
+
+
+.address input {
+    display: flex;
+    border: 0px;
+}
+
+.address p {
+    display: flex;
+}
+
+.Deliveryaddress input {
+    display: flex;
+    border: 0px;
+}
+
+.inputNumber {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputNumber input {
+    width: 50px;
+}
+
+.inputNumber hr {
+    width: 50px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    gap: 280px;
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.social img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section hr {
+    background-color: #002C6A;
+    height: 2px;
+}
+
+.vk {
+    background-color: #4D76A1;
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    border-radius: 100%;
+}
+
+.whatsapp {
+    background-color: #4CAF50;
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    border-radius: 100%;
+}
+
+.telegram {
+    background-color: #039BE5;
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    border-radius: 100%;
+}
+
+.viber {
+    background-color: #6F3FAA;
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    border-radius: 100%;
+}
+
+.viber img {
+    width: 20px;
+    height: 20px;
+}
+
+.instagram {
+    background: linear-gradient(to right, #FF543E 221%, #FFDD55 255%, #C837AB 85%);
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.inputTwo {
+    display: flex;
+    margin-left: 120px;
+    align-items: center;
+    gap: 70px;
+}
+
+.inputTwo hr {
+    width: 400px;
+    height: 2px;
+    background-color: #002C6A;
+}
+
+.inputTwo input {
+    width: 400px;
+}
+
+.social button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.savechanges button {
+    width: 310px;
+    height: 55px;
+    background-color: #B3C0D2;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.savechanges {
+    margin-top: 20px;
+    margin-left: 115px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.savechanges button:hover {
+    background-color: rgba(255, 24, 24, 1.00);
+    transition: ease 0.5s;
+}
+
+.buttonHover a {
+    margin-bottom: 25px;
+    border: 0px;
+    background-color: #FFFFFF;
+    padding-right: 30px;
+    margin-left: -150px;
+    transition: box-shadow ease 0.5s;
+    border: 0px;
+    width: 300px;
+    height: 80px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.buttonHover a:hover {
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonHover img {
+    width: 30px;
+    height: 35px;
+}
+
+.basketData {
+    display: flex;
+    text-align: center;
+    margin-left: 150px;
+    gap: 70px;
+
+}
+
+.basketData p {
+    margin-bottom: 40px;
+}
+
+.basketData h1 {
+    font-size: 18px;
+    color: #002C6A;
+}
+
+.inputCheckbox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inputCheckbox input {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    width: 33px;
+    height: 33px;
+    border: 3px #B3C0D2;
+    color: white;
+
+}
+
+.tracking {
+    margin-left: 200px;
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.Tracking {
+    display: flex;
+    gap: 50px;
+    align-items: baseline;
+}
+
+
+
+.trackCircl {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #B3C0D2;
+    display: flex;
+    justify-content: flex-start;
+    
+
+}
+.Circls {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+}
+.trackData {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+.track1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+.trackInput hr {
+    display: flex;
+    margin-right: 440px;
+    width: 250px;
+    height: 2px;
+    background-color: #002C6A;
+}
+.inputFather {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+/* .inputCheckbox input[type="checkbox"] {
+    accent-color: #FF1818;
+    
+  } */
+
+.inputCheckbox input[type=text] {
+    appearance: none;
+    border: none;
+    outline: none;
+
+}
+
+.inputCheckbox input[type=checkbox] {
+    appearance: none;
+    background-color: #fff;
+    font: inherit;
+    color: currentColor;
+    border: 3px solid #B3C0D2;
+    border-radius: 0.15em;
+    background-color: #FF1818;
+    display: grid;
+    place-content: center;
+
+
+    &::before {
+        content: "";
+        width: 1em;
+        height: 1em;
+        transform: scale(0);
+        transition: 120ms transform ease-in-out;
+        box-shadow: inset 1em 1em #FFFFFF;
+
+        clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+        transform-origin: left top;
+
+    }
+
+    &:checked::before {
+        transform: scale(1);
+
+    }
+}
+
+
+/* inputStyle */
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 1.3rem;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form__field:placeholder-shown~.form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #9b9b9b;
+}
+
+.form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #11998e, #38ef7d);
+    border-image-slice: 1;
+}
+
+.form__field:focus~.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: #11998e;
+    font-weight: 700;
+}
+
+/* reset input */
+.form__field:required,
+.form__field:invalid {
+    box-shadow: none;
+}
+
+/* inputStyle */

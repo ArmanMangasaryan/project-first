@@ -1,0 +1,176 @@
+.choseYourSezon{
+    display: flex;
+     align-items: center;
+     padding-bottom: 10px;
+}
+
+.clothingdiv{
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+    border: 3px solid #B3C0D2;
+}
+
+
+/* range */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      width: 208px;
+      height: 5px;
+      -webkit-appearance: none;
+      background-color: #29292D;
+    }
+    
+    input[type='range']::-webkit-slider-runnable-track {
+      height: 10px;
+      -webkit-appearance: none;
+      color: #13bba4;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 30px;
+      height: 30px;
+      -webkit-appearance: none;
+      cursor: ew-resize;
+      background: #FF1818;
+      box-shadow: -80px 0 0 80px #B3C0D2;
+    }
+
+}
+
+/* colore */
+
+.black,
+.gray,
+.white,
+.purple ,
+.green ,
+.darkgreen,
+.yellow,
+.pink,
+.red,
+.oxra,
+.blue,
+.darkblue{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px
+    
+}
+.black:hover,
+.gray:hover,
+.white:hover,
+.purple:hover ,
+.green:hover,
+.darkgreen:hover,
+.yellow:hover,
+.pink:hover,
+.red:hover,
+.oxra:hover,
+.blue:hover,
+.darkblue:hover{
+    width: 44px;
+    height: 44px;
+    border-radius: 40px;
+    transition-duration: 1s;
+
+}
+
+
+.darkblue{
+    background-color:#336CBD ;
+}
+
+.black{
+    background-color:  #29292D;
+}
+.gray{
+    background-color: #C4C4C4;
+}
+.white{
+    background-color: white;
+    border: 1px solid #B3C0D2;
+}
+.purple{
+    background-color: #A13FBA;
+}
+.green{
+    background-color: #2C830E;
+}
+.darkgreen{
+    background-color: #2E4824;
+}
+.yellow{
+    background-color: #EBEF31;
+}
+.pink{
+    background-color: #FFE1E1;
+}
+.red{
+    background-color: #D92A27;
+}
+.oxra{
+    background-color: #EDDED0;
+}
+.blue{
+    background-color: #76DECB;
+}
+.shoesColor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px; 
+}
+
+/* sale */
+
+.sale{
+    padding-top: 25px;
+}
+.sale h1 {
+    padding-top: 4px;
+}
+.buttonForTrying,
+.buttonCencle{
+    width:218px;
+    height: 56px;
+    padding: 24px, 53px, 24px, 53px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.buttonForTrying{
+    background-color: #FF1818;
+    border: #FF1818 ;
+}
+.buttonCencle{
+    background-color: #B3C0D2;
+    border: #B3C0D2;
+}
+.saleshoes{
+    display: flex;
+}
+.shoesSezonsDiv{
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+    border: 3px solid #B3C0D2;
+}
+.choseYourSezon{
+    display: flex;
+     align-items: center;
+     padding-bottom: 10px;
+}
+
+/*  */
+
+.chosingAccesorieDiv{
+    width: 347px;
+    height: 1827px;
+}

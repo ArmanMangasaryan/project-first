@@ -1,0 +1,39 @@
+.border2{
+    width: 2px;
+    height: 260px;
+    background-color: #B3C0D2;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.redborder2{
+    background-color: red;
+    position: absolute;
+    width: 5px;
+    top: 25px;
+    right: -3px;
+    border-radius: 15px;
+    height: 50px;
+}
+.shoesBrend{
+    position: relative;
+}
+.shoesSezonsDiv{
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+    border: 3px solid #B3C0D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: rgba(0, 131, 245, 0);
+}
+.choseYourSezon{
+    display: flex;
+     align-items: center;
+     padding-bottom: 10px;
+}
+.shoesSezons {
+    margin-top: 300px;
+}

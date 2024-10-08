@@ -1,0 +1,76 @@
+.menuListFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+    padding: 0 122px;
+}
+.menuList{
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+    gap: 10px;
+}
+.menuList a{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0 em;
+    color: black;
+    transition: .5s;
+    cursor: default;
+}
+.menuList a:hover{
+    color: #FF1818;
+}
+.menuSearch{
+    box-shadow: 5px 2px 30px 0px #29292D1A inset;
+    background: #FFFFFF;
+    border-radius: 50px;
+    width: 350px;
+    height: 44px;
+    display: flex;
+    position: relative;
+    border-radius: 50px;
+}
+.menuSearch input{
+    box-shadow: 5px 2px 30px 0px #29292D1A inset;
+    width: 255px;
+    height: 44px;
+    padding: 0 10px;
+    border-start-start-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.menuSearch input:hover{
+    cursor: default;
+}
+.search{
+    box-shadow: 0px 10px 20px 0px #00000026;
+    border-top-right-radius: 50px;
+    border-end-end-radius: 50px;
+    width: 95px;
+    height: 44px;
+    background: #29292D;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.search i {
+   
+    width: 28px;
+    height: 27px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+
+}
+/* i{
+    width: 28px;
+    height: 27.38px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+} */

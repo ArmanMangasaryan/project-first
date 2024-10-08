@@ -1,0 +1,274 @@
+.productName {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 48px;
+
+    color: #29292D;
+    line-height: 58px;
+
+}
+
+.productId {
+    font-family: Ruda;
+    font-weight: 400;
+    line-height: 21px;
+    color: #B3C0D2;
+    font-size: 18px;
+    
+}
+
+.bigImg {
+    width: 729px;
+    height: 540px;
+    border-radius: 20px;
+}
+
+.smallPhoto {
+    width: 160px;
+    height: 118px;
+}
+
+.images {
+    max-width: 729px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.images>div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    max-width: 839px;
+
+}
+
+.productPrice {
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 58px;
+    font-size: 48px;
+    color: #FF1818;
+}
+.productPrice2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 58px;
+    font-size: 48px;
+    color: #cacaca;
+    text-decoration: line-through;
+}
+
+.selectProductSize {
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    color: #29292D;
+}
+
+.productSizes {
+    color: #002C6A;
+    line-height: 21px;
+    font-size: 18px;
+    font-family: Montserrat;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 9px;
+}
+
+.productSizes li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 9px;
+    height: 51px;
+}
+
+.productSizes p {
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productSizes span {
+    font-weight: 700;
+}
+
+.selectProductSizeParent {
+    width: 481px;
+    height: 282px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 20px 60px 0px #165CBF26;
+
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+    padding: 0px 30px;
+}
+
+.selectProductSizeParent button {
+    width: 324px;
+    height: 65px;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+    position: absolute;
+
+    left: 88px;
+    bottom: -30px;
+}
+
+.productRight {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: center;
+    max-width: 481px;
+}
+
+.addProductInBasket {
+    background: linear-gradient(93.95deg, #FF1818 12.62%, #F2312D 92.9%);
+    box-shadow: 0px 15px 30px 0px #E32F1F26;
+    padding: 24px 60px;
+    width: 296px;
+}
+
+.buyProductNow {
+    background: #002C6A;
+    box-shadow: 0px 15px 30px 0px #002C6A26;
+    padding: 24px 53px;
+}
+
+.buyProduct button {
+    border-radius: 50px;
+    border: none;
+
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.buyProduct {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
+.productCard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.productPageSection {
+    padding: 0px 20px 0px 108px;
+
+}
+
+.productParentDiv {
+    background-color: #FCFCFC;
+
+}
+
+/* ------------------------ */
+
+
+.aboutProduct {
+    width: 729px;
+    height: 242px;
+
+
+
+    font-family: Ruda;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+.productCategorisKey p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #002C6A;
+    margin: 0px;
+
+
+}
+
+.productCategorisKey {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.productCategorisValue span {
+    font-family: Montserrat;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #002C6A;
+}
+
+.productDescription li {
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+
+}
+
+.productDescription ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.productCategorisAll {
+    display: flex;
+    column-gap: 32px;
+
+}
+
+.productDescription {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* -------- */
+
+.moreInfoProduct {
+    display: flex;
+    margin: 40px 0px 30px 0px;
+    column-gap: 50px;
+}
+
+.moreInfoProduct a {
+    font-family: Ruda;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #29292D;
+}

@@ -1,0 +1,87 @@
+body{
+    background-color:#FCFCFC;
+}
+.sneakersMotherDiv{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    flex-wrap: wrap;
+    background-color: #FCFCFC;
+     width: 825px;
+    /* overflow: hidden; */
+}
+.sneakersCards{
+    width: 255px;
+    height: 325px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.sneakersCards:hover{
+    /**divi hoveri jamanak arajin hatvacy scale linuma 2rdy che**/
+    /* width: 230px; */
+    height: 330px;
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+    border-radius: 30px 30px 30px 30px; 
+}
+.sneakersImageDiv{
+    font-size: 20px;
+    width: 256.42px;
+    height: 188.04px;
+    /* overflow: hidden; */
+}
+/******2rd masn esa *****/
+/* .sneakersImageDiv:hover{
+    width: 230px;
+} */
+.sneakersImage{
+    border-radius: 20px 20px 0 0;
+    width: 256px;
+    
+}
+.sneakersInfoDiv{
+    /* background-color: red; */
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.sneakersBrandName{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight:600;
+    line-height: 17px;
+    text-align: left;
+    color: #29292D;
+}
+.sneakersArticul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #B3C0D2;
+    padding-top: 3px;
+}
+.sneakersPriceDiv{
+    padding-top: 5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sneakersPrice{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: left;
+    padding-top: 3px;
+    color: #002C6A;
+}
+.sneakersFavorites{
+    color:#B3C0D2;
+    font-size: 25px;
+    padding-right: 20px;
+}
+.sneakersFavorites:active{
+    color:#FF1818;
+}

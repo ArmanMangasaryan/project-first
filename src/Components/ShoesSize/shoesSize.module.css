@@ -1,0 +1,41 @@
+.shoessizes ul li{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.shoessizes ul{
+    margin-bottom: 10px;
+}
+
+.shoessizes{
+    position: relative;
+}
+.shoesSizeUles{
+    position: absolute;
+    left: -8px;
+    width: 278px;
+}
+.shoessizes ul li ul{
+    font-family: Montserrat;
+    font-size: 14px;
+    padding: 7px 10px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #002C6A;
+    /* padding-bottom: 30px; */
+}
+h1{
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #002C6A;
+}
+ul > li ul:hover {
+    background-color: #FF1818;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+
+

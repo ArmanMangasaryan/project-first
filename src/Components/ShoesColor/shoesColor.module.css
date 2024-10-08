@@ -1,0 +1,25 @@
+.color{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 1s all;
+    
+}
+.color:hover{
+    position: absolute;
+    transform: scale(1.5);
+    border-radius: 40px;
+    /* transition-duration: 1s; */
+
+}
+.shoesColor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    gap: 30px;
+}
+
+.position{
+    width: 30px;
+    height: 30px;
+}

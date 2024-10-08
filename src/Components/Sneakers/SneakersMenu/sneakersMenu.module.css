@@ -1,0 +1,97 @@
+body{
+    background-color:#FCFCFC;
+}
+.sneakersMenuMother{
+    height: 80px;
+}
+.sneakersMenu{
+    display: flex;
+    justify-content: space-between;
+    width: 825px;
+}
+/************************SNEAKERS**MENU**LEFT**********/
+.sneakersMenuLeft{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 28px;
+
+    width: 295px;
+    height: 40px;
+    top: 327px;
+    left: 450px;
+    border-radius: 70px;
+}
+.sort{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color:#B3C0D2;
+    /* width: 106px; */
+    height: 22px;
+}
+.options{
+    width: 165px;
+    height: 40px;
+    /* margin-left: 10px; */
+    border-radius: 70px;
+    background-color: #FFFFFF;
+    border:none;
+    box-shadow: 5px 10px 30px 0px #165CBF1A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#29292D;
+    display: flex;
+    justify-content:center;
+    /* padding-left: 5px; */
+    align-items: center;
+    gap: 4px;
+}
+.caret{
+    color:#29292D;
+    ;
+}
+
+/*************************Sneakers****Menu***Right**************/
+
+.sneakersMenuRight{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 28px;
+}
+.sneakersMenuUl{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.quality{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color:#B3C0D2;
+    /* width: 106px; */
+    height: 22px;
+}
+.sneakersMenuUl li{
+    width: 40px;
+    height: 40px;
+    top: 327px;
+    left: 1135px;
+    border-radius: 70px;
+    /* background-color: red; */
+    text-align: center;
+    padding-top: 10px ;
+    box-shadow: 5px 10px 30px 0px #165CBF1A;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.sneakersMenuUl li:active{
+    background-color: red;
+    color: white;
+}

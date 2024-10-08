@@ -1,0 +1,76 @@
+.blogRoot{
+   align-items: center;
+   width: 90%;
+   margin: 100px auto;
+   margin-bottom: 150px;
+}
+
+.name {
+    width: 85%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.h1{
+    max-width: 70%;
+    font: Montserrat;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 78.02px;
+}
+
+.data {
+    text-align: end
+}
+
+.nike{
+    width: 100%;
+    margin: 0px;
+}
+
+.text{
+    display: flex;
+}
+.info{
+    flex-direction:column ;
+}
+
+.info p{
+      width: 665px;
+     font: Ruda;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 29.21px;
+     color: #29292D;
+     margin-top: 20px;
+     flex-direction: column;
+     
+}
+
+.imgrot {
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.imgrot button {
+ width: 455px;
+ height: 85px;
+ border-radius: 50px;
+ padding: 24px, 53px, 24px, 53px;
+ background-color: #FF1818;
+ color: #fff;
+ border: none;
+ margin-top: 50px;
+}
+
+.img4{
+  position: absolute;
+   right: 20px;
+   bottom: 35px;
+}
+
+
+    

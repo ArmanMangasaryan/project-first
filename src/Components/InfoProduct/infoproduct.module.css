@@ -1,0 +1,258 @@
+.sneackerCard {
+    width: 540px;
+    height: 170px;
+    box-shadow: 5px 20px 60px 0px #165CBF26;
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sneackerCard:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.NameMenu {
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    color: #002C6A;
+}
+
+.sneckerName {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #002C6A;
+}
+
+.aboutSneacker {
+    margin-bottom: 40px;
+    font-family: Ruda;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #29292D;
+    width: 300px;
+    height: 51px;
+}
+
+.moreInfo p {
+    font-family: Ruda;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B3C0D2;
+}
+
+.infoboxs img {
+    overflow: hidden;
+    width: 204px;
+    height: 170px;
+}
+
+.sneackerCard {
+    display: flex;
+    column-gap: 25px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dataIprosmotri {
+    display: flex;
+    flex-direction: column;
+}
+
+.dataIprosmotri ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.moreInfo>li>img {
+    margin-bottom: 5px;
+    margin-left: 145px;
+    width: 20px;
+    height: 11px;
+}
+
+.CardTwo {
+    margin-top: 20px;
+    width: 560px;
+    height: 205px;
+    border-radius: 20px;
+    box-shadow: 5px 50px 50px 0px #165CBF1A;
+    background: #FFFFFF;
+    display: flex;
+    margin-left: 40px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.CardTwo:hover {
+    transform: scale(1.06);
+    z-index: 2;
+}
+
+.textsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardName {
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    /* max-width: 285px; */
+    /* height: 44px; */
+    color: #002C6A;
+}
+
+.dataCardTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.dataCardTwo>ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twoText {
+    margin-bottom: 45px;
+    margin-left: 15px;
+    font-family: Ruda;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #29292D;
+    width: 300px;
+    height: 51px;
+}
+
+.moreInfoTwo>li>img {
+    margin-bottom: 5px;
+    margin-left: 145px;
+    width: 20px;
+    height: 11px;
+}
+
+.moreInfoTwo>li>p {
+    margin-right: 10px;
+    font-family: Ruda;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B3C0D2;
+}
+
+.moreInfoTwo>li>.dataDay {
+    margin-left: 10px;
+}
+
+.CardTwo>img {
+    overflow: hidden;
+    width: 280px;
+    height: 205px;
+}
+
+.registerCard {
+    position: relative;
+    bottom: 390px;
+    margin-left: 650px;
+    width: 540px;
+    height: 325px;
+    box-shadow: 5px 20px 60px 0px #165CBF26;
+    border-radius: 20px;
+}
+
+.registerText hr {
+    width: 410px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+.registermenu {
+    width: 540px;
+    height: 100px;
+    border-radius: 20px;
+    background: #29292D;
+    height: 100px;
+    position: relative;
+    bottom: 30px;
+}
+
+.registermenu>.registertexts>h2 {
+    position: relative;
+    top: 17px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.registerText input {
+    border: none;
+    width: 222px;
+    height: 29px;
+    font-family: Ruda;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-left: 70px;
+}
+
+.registerText input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+.podpis {
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 234px;
+    height: 56px;
+    top: 2637px;
+    left: 800px;
+    padding: 24px, 53px, 24px, 53px;
+    border-radius: 50px;
+    border: none;
+    gap: 10px;
+    background: #FF1818;
+    box-shadow: 0px 15px 30px 0px #E32F1F26;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.registerText>p {
+    font-family: Ruda;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    margin-top: 10px;
+    margin-left: 110px;
+    color: #B3C0D2;
+}
+.infoboxs {
+    height: 600px;
+}

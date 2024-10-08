@@ -1,0 +1,45 @@
+.headerBlog {
+    width: 1300px;
+    height: 319px;
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px 50px 50px;
+    gap: 200px;
+}
+.box1, .box2, .box3 {
+    width: 144px;
+    height: 144px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.box1{
+    background: #B3C0D2;
+}
+
+.box2 {
+    background: #CFEBC6;
+}
+
+.box3 {
+    background: #FFE1E1;
+}
+.name1, .name2, .name3 {
+    position: relative;
+    right: 120px;
+    width: 280px;
+    height: 132px;
+    margin: 60px;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #002C6A;
+}
+.headerBlog img {
+    width: 80px;
+    height: 80px;
+    margin-top: 27px;
+    margin-left: 30px;
+}

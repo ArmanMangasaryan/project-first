@@ -1,0 +1,41 @@
+.sale{
+    padding-top: 25px;
+}
+.sale h1 {
+    padding-top: 4px;
+}
+.buttonForTrying,
+.buttonCencle{
+    width:218px;
+    height: 56px;
+    padding: 24px, 53px, 24px, 53px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.buttonForTrying{
+    background-color: #FF1818;
+    border: #FF1818 ;
+}
+.buttonCencle{
+    background-color: #B3C0D2;
+    border: #B3C0D2;
+}
+.saleshoes{
+    display: flex;
+}
+.shoesSezonsDiv{
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+    border: 3px solid #B3C0D2;
+}
+.choseYourSezon{
+    display: flex;
+     align-items: center;
+     padding-bottom: 10px;
+}

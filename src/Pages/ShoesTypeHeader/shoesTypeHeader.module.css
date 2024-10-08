@@ -1,0 +1,10 @@
+.shoesTypeHeader{
+    width: 338px;
+    height: 2176px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.shoesTypeHeader input{
+    border: red;
+}
